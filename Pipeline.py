@@ -291,8 +291,8 @@ def presentacion(external):
     driver.find_element_by_xpath("/html/body/div[1]/div[2]/div/div[2]/div/a").click()
     time.sleep(1)
 
-    usr='shiroiusagi4486@gmail.com'
-    pwd='wero5039'
+    usr=''
+    pwd=''
 
     username_box = driver.find_element_by_id('email') 
     username_box.send_keys(usr) 
